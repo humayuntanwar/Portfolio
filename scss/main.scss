@@ -73,7 +73,7 @@ h1,h2,h3{
         grid-template-areas:
           'bioimage bio bio'
           'job1 job2 job3';
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
       
         .bio-image {
           grid-area: bioimage;
@@ -95,9 +95,9 @@ h1,h2,h3{
           grid-area: job2;
         }
       
-        .job-3 {
-          grid-area: job3;
-        }
+       // .job-3 {
+       //   grid-area: job3;
+//}
       
         .job {
           background: lighten($primary-color, 5);
@@ -105,6 +105,8 @@ h1,h2,h3{
           border-bottom: $secondary-color 5px solid;
         }
       }
+
+
 
       // work / projects
       .projects{
